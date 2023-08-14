@@ -36,7 +36,7 @@ Sólo hay realizar la petición **POST** con un body en formato json
 
 ## Ejemplo
 
-Se puede realizar una solicitud de python, usando postaman.
+Se puede realizar una solicitud desde python, o usando postman.
 
 
 Ejemplo python:
