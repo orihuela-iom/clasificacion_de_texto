@@ -85,7 +85,7 @@ Respuesta:
 
 Captura de pantalla
 
-![Referencia][api.JPG]
+![Referencia](api.jpg)
 
 
 Devuelve un objeto json con los elementos
@@ -104,7 +104,7 @@ Se tiene que ingresar un texto dentro de la caja de texto, presionar "Clasificar
 Adicional muestra palabras más relevantes dentro del texto, obtenidas por LIME
 
 
-![Referencia][api.JPG]
+![App](app.jpg)
 
 
 # Ejecutar API de forma local
