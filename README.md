@@ -85,7 +85,7 @@ Respuesta:
 
 Captura de pantalla
 
-![Referencia](api.jpg)
+![Referencia](api.JPG)
 
 
 Devuelve un objeto json con los elementos
