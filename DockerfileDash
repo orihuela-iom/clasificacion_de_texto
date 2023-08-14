@@ -1,0 +1,30 @@
+# Use the official lightweight Python image.
+# https://hub.docker.com/_/python
+FROM python:3.8-slim
+
+# print logs
+ENV PYTHONUNBUFFERED True 
+# locale
+#ENV LC_ALL=es_MX.UTF-8
+
+# Copy local code to the container image.
+ENV APP_HOME /app
+WORKDIR $APP_HOME
+
+RUN mkdir -p /app/model
+RUN mkdir -p /app/clean
+
+COPY ["requirements.txt", "train_model.py","app.py", "/app"]
+COPY ["clean", "/app/clean"]
+COPY ["model", "/app/model"]
+
+# Install production dependencies.
+RUN pip install -r requirements.txt
+
+RUN python -m spacy download en_core_web_sm
+
+CMD ["python", "app.py"]
+
+#EXPOSE 8080
+ENV PORT 8080
+#CMD ["gunicorn", "main:app", "--host", "0.0.0.0", "--port", "8080"]
