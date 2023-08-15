@@ -5,7 +5,7 @@ El objetivo es realizar un modelo de clasificación multi clase, mediante un alg
 Dentro de la solución se presenta un API para hacer predicciones con el modelo y una app interactiva.
 
 
-# Instalar requerimietos
+# Instalar requerimientos
 
 ```
 pip install -r requirements.txt
