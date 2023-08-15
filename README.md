@@ -7,6 +7,10 @@ Dentro de la solución se presenta un API para hacer predicciones con el modelo 
 
 # Instalar requerimientos
 
+## Crear la carpeta /data y colocar los archivos **"customer-issues-train.csv"** y **"customer-issues-test.csv"**
+github no me permitio subir los datasets completos :(
+
+
 ```
 pip install -r requirements.txt
 python -m spacy download en_core_web_sm
