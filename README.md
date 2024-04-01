@@ -28,7 +28,7 @@ Adicional estan los archivos `train_model.py` y `clean_text.py`, con funciones a
 Se puede accceder a la API a través de:
 
 ```
-https://shasa-challenge-dilwrjxvda-ue.a.run.app/predict/
+https://mi_url/predict/
 
 ```
 Sólo hay realizar la petición **POST** con un body en formato json
