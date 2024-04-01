@@ -4,7 +4,6 @@ El objetivo es realizar un modelo de clasificación multi clase, mediante un alg
 
 Dentro de la solución se presenta un API para hacer predicciones con el modelo y una app interactiva.
 
-
 # Instalar requerimientos
 
 ## Crear la carpeta /data y colocar los archivos **"customer-issues-train.csv"** y **"customer-issues-test.csv"**
