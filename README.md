@@ -1,4 +1,4 @@
-# Challenge Shasa
+# Clasificacion de texto
 
 El objetivo es realizar un modelo de clasificación multi clase, mediante un algoritmo de ML.
 
