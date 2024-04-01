@@ -48,7 +48,7 @@ Ejemplo python:
 import requests
 
 
-url = "https://shasa-challenge-dilwrjxvda-ue.a.run.app/predict/"
+url = "URL"
 
 my_request = {"ticket_text": "DISPUTE BANK OF AMERICA FRAUDULENT CHARGES This letter is intended to dispute Bank of America Home Loans/ Bank of America N.A fraudulent, fabricated charges and criminal activities, to defraud XXXX XXXX client : 1 ) According fraudulent Account Statements submitted to XXXX County Florida as part of Wrong Foreclosure in XXXX, '' AFFIDAVITS SUPPORTING PLAINTIFFS MOTION FOR SUMMARY FINAL JUDGMENT '', filed and sworn by Bank of America N.A on XXXX XXXX, XXXX, clearly show Bank of America criminal activities and fraudulent billing. """}
 
@@ -101,7 +101,6 @@ Devuelve un objeto json con los elementos
 
 
 # App interactiva
-https://shasa-challenge-viz-dilwrjxvda-ue.a.run.app
 
 Se tiene que ingresar un texto dentro de la caja de texto, presionar "Clasificar" y la app muestra un gráfico con el top 5 de productos más probables a la que pertenecen el texto, indicado en rojo la clasificación más probable.
 
